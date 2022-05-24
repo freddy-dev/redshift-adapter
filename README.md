@@ -1,4 +1,4 @@
-activerecord6-redshift-adapter
+redshift-adapter
 ==============================
 
 Amazon Redshift adapter for ActiveRecord 7 (Rails 7).
@@ -12,15 +12,15 @@ ActiveRecord3: https://github.com/fiksu/activerecord-redshift-adapter
 There are some differences for AR6, and this driver tries to stay compatible
 with those.
 
-If anybody writes a better Redshift driver which works with ActiveRecord 6,
+If anybody writes a better Redshift driver which works with ActiveRecord 7,
 and maintains it, we would happily switch to that.
 
 Usage
 -------------------
 
-For Rails 6, write following in Gemfile:
+For Rails 7, write following in Gemfile:
 ```
-gem 'activerecord6-redshift-adapter'
+gem 'redshift-adapter'
 ```
 
 In database.yml
